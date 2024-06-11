@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const accountSchema = new Schema({
   name: String,
   age: Number,
-  image: String,
+  profilePicture: String,
   description: String,
 });
 
